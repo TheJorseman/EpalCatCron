@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  epal_cat:
+    build: .
+    volumes:
+      - .:/app
+    restart: unless-stopped
